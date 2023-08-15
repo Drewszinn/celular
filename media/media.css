@@ -1,0 +1,30 @@
+@media screen and (min-width: 320px) {
+  body {
+    overflow: hidden;
+  }
+  section#telefone {
+    position: absolute;
+    transform: translate(-46%, -37.5%);
+    height: 92vh;
+    width: 75vw;
+    background: url("../imagens/frame-iphone.png") no-repeat;
+    background-size: 70vw;
+  }
+
+  iframe#tela {
+    position: absolute;
+    transform: translate(-2%, -3%);
+    width: 60.4vw;
+    height: 62vh;
+  }
+
+  section#redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(20%);
+  }
+
+  section#redes-sociais img {
+    width: 15vw;
+  }
+}
